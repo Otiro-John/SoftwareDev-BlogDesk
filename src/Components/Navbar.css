@@ -1,0 +1,52 @@
+.navigation{
+    width: 100%;
+    min-height: 30px;
+    border-radius: 40px;
+    padding: 10px;
+    background-color: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+}
+.logo{
+    font-size: 50px;
+}
+.links nav ul{
+    flex: 1;
+    display: flex;
+    gap: 20px;
+}
+.links nav ul li{
+    list-style: none;
+}
+.links nav ul li a{
+    font-size: 20px;
+    color: #111;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    gap: 30px;
+}
+.btn button{
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: #111;
+    color: #fff;
+}
+.btn button a{
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+}
+.btn button a img{
+    width: 50px;
+    border-radius: 50%;
+}

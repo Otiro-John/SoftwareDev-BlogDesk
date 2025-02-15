@@ -1,0 +1,51 @@
+.editor-wrapper{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.editor{
+    width: 700px;
+    min-height: 500px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+.editor h2{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+.editor input{
+    padding: 10px;
+    font-size: 60px;
+    border: none;
+    outline: none;
+}
+.editor textarea{
+    width: 650px;
+    height: 500px;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    background: url(..../Assets/background.jpg);
+    line-height: 30px;
+    border: none;
+    outline: none;
+}
+.editor button{
+    width: 120px;
+    height: 40px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: #111;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    float: right;
+    outline: none;
+    cursor: pointer;
+}
